@@ -3,7 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/proyectos/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/proyectos/app/src/main/res/drawable/botton_activo.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/proyectos/app/src/main/res/drawable/botton_iniciar.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/proyectos/app/src/main/res/drawable/fondo_inicio.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/proyectos/app/src/main/res/drawable/rectangulo_inicio.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/proyectos/app/src/main/res/drawable/vector_inicio.xml" value="0.26205128205128203" />
+        <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/proyectos/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/programas/proyectos/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
       </map>
     </option>

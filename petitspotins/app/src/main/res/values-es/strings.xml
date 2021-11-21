@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Petits Potins</string>
+    <string name="text_username">Email o Usuario</string>
+    <string name="text_Password">Contraseña</string>
+    <string name="hint_Password">Tu Contraseña</string>
+    <string name="text_login">ACCEDER</string>
+    <string name="hint_username">email@domain.com</string>
+    <string name="txt_welcome">Bienvenido(a)</string>
+    <string name="user">Leandro</string>
+    <string name="txt_introduction">Introducción</string>
+    <string name="txt_class1">Clase 1</string>
+    <string name="txt_cancel">Cancelar</string>
+    <string name="txt_ok">Ok</string>
+    <string name="txt_user">Usuario :</string>
+    <string name="txt_error">ERROR!</string>
+    <string name="txt_error_inicio">Usuario o contraseña incorrecta</string>
+    <string name="txt_action_search">Búsqueda</string>
+    <string name="txt_action_settings">Configuración</string>
+    <string name="txt_action_logout">Cerrar Sesión</string>
+    <string name="txt_fab">Elemento adicionado</string>
+    <string name="txt_name_client">Nombre del Cliente</string>
+    <string name="txt_cc_client">Cédula Cliente</string>
+    <string name="txt_cod_vent">Código de Venta</string>
+    <string name="txt_fech_vent">Fecha de venta</string>
+    <string name="txt_val_abon">Valor Abonado</string>
+    <string name="txt_btnabono">Cargar</string>
+    <string name="txt_or">O</string>
+    <string name="txt_reg_abono">Registro de Pago</string>
+</resources>

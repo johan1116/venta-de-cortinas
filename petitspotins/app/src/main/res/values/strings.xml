@@ -26,4 +26,16 @@
     <string name="txt_btnabono">Load</string>
     <string name="txt_or">Or</string>
     <string name="txt_reg_abono">Payment Registration</string>
+    <string name="txt_reg_vent">Sale Registration</string>
+    <string name="txt_date_vent">Sale Data</string>
+    <string name="txt_cc_ven">Seller ID</string>
+    <string name="txt_date_cli">Client data</string>
+    <string name="txt_cli_name">Client name</string>
+    <string name="txt_dire">Address</string>
+    <string name="txt_lon">Length</string>
+    <string name="txt_lati">Latitude</string>
+    <string name="txt_data_art">Article Data</string>
+    <string name="txt_type_art">Types of Articles</string>
+    <string name="txt_anch">Width</string>
+    <string name="txt_larg">Long</string>
 </resources>

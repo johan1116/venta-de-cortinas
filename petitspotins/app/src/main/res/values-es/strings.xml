@@ -26,4 +26,16 @@
     <string name="txt_btnabono">Cargar</string>
     <string name="txt_or">O</string>
     <string name="txt_reg_abono">Registro de Pago</string>
+    <string name="txt_reg_vent">Registro de Venta</string>
+    <string name="txt_date_vent">Datos de la Venta</string>
+    <string name="txt_cc_ven">Cédula del Vendedor</string>
+    <string name="txt_date_cli">Datos del Cliente</string>
+    <string name="txt_cli_name">Nombre del Cliente</string>
+    <string name="txt_dire">Dirección</string>
+    <string name="txt_lon">Longitud</string>
+    <string name="txt_lati">Latitud</string>
+    <string name="txt_data_art">Datos del Artículo</string>
+    <string name="txt_type_art">Tipos de Artículos</string>
+    <string name="txt_anch">Ancho</string>
+    <string name="txt_larg">Largo</string>
 </resources>

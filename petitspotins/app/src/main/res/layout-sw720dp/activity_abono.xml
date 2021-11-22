@@ -48,11 +48,11 @@
         app:cardElevation="16dp"
         app:cardPreventCornerOverlap="false">
 
-        <!--<RelativeLayout
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/cortinas"
-            android:alpha=".50">-->
+            android:background="@drawable/sala_1"
+            android:alpha=".45"/>
 
 
 

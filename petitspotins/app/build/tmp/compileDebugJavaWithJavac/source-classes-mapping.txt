@@ -1,0 +1,2 @@
+com/unicaldas/petitspotins/BuildConfig.java
+ com.unicaldas.petitspotins.BuildConfig

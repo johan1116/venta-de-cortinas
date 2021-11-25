@@ -1,206 +1,266 @@
 [
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_cortina_2.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\cortina_2.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_bold.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\font\\poppins_bold.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_cortina_2.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\cortina_2.png"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_medium.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\font\\poppins_medium.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\menu.png"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_main.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp-land_activity_venta.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-sw720dp-land\\activity_venta.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp_activity_venta.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout-sw720dp\\activity_venta.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_sala_1.jpg.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable-hdpi\\sala_1.jpg"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_sala_2.jpeg.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable-hdpi\\sala_2.jpeg"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp-land_activity_abono.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout-sw720dp-land\\activity_abono.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_google.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\google.png"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_list.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\ic_list.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_moneda.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\moneda.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_login.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-land\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_welcome.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_tienda.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\tienda.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_home.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\menu_nav_menu.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\menu\\nav_menu.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_sala_3.jpg.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable-hdpi\\sala_3.jpg"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_quitarcarrito.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\quitarcarrito.png"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_facebook.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\facebook.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_twitter.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\twitter.png"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp_fragment_abono.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-sw720dp\\fragment_abono.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp_activity_abono.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout-sw720dp\\activity_abono.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_sala_2.jpeg.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable-hdpi\\sala_2.jpeg"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_semibold.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\font\\poppins_semibold.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_moneda.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\moneda.png"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp-land_activity_venta.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout-sw720dp-land\\activity_venta.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-land_fragment_abono.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-land\\fragment_abono.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_cortinas.jpg.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\cortinas.jpg"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_main.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-land\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_twitter.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\twitter.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp_activity_login.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-sw720dp\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_venta.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-land\\activity_venta.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_borrar.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\borrar.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_semibold.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\font\\poppins_semibold.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout\\nav_header.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_medium.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\font\\poppins_medium.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_light.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\font\\poppins_light.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_venta.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout\\activity_venta.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_quitarcarrito.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\quitarcarrito.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_cortinas.jpg.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\cortinas.jpg"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp-land_activity_main.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout-sw720dp-land\\activity_main.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_grupo.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\grupo.png"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_grupo.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\grupo.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp_activity_main.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout-sw720dp\\activity_main.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_light.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\font\\poppins_light.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_google.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\google.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_sala_3.jpg.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable-hdpi\\sala_3.jpg"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_abono.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout-land\\activity_abono.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\menu.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_carrito.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\carrito.png"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_carrito.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\carrito.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_abono.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\ic_abono.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_facebook.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\facebook.png"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_carrito.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\ic_carrito.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\font_poppins_bold.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\font\\poppins_bold.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_venta.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout\\activity_venta.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_cortina_3.jpg.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\cortina_3.jpg"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_sala_4.jpg.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable-hdpi\\sala_4.jpg"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_sala_1.jpg.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable-hdpi\\sala_1.jpg"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_home.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_abono.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout\\activity_abono.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_cut_card_background.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\cut_card_background.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable_cinta.png.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable\\cinta.png"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp_activity_main.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-sw720dp\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_sala_4.jpg.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\drawable-hdpi\\sala_4.jpg"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_venta.xml.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\layout-land\\activity_venta.xml"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Queso\\OneDrive\\Documentos\\venta-de-cortinas\\petitspotins\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_cinta.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\cinta.png"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_borrar.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\borrar.png"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp-land_activity_login.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-sw720dp-land\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_welcome.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\welcome.png"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_gallery.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\ic_gallery.xml"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_cortina_3.jpg.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\cortina_3.jpg"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_abono.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout\\activity_abono.xml"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-land_activity_welcome.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-land\\activity_welcome.xml"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp_activity_venta.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-sw720dp\\activity_venta.xml"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp-land_fragment_abono.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-sw720dp-land\\fragment_abono.xml"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_article.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\ic_article.xml"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout-sw720dp-land_activity_main.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout-sw720dp-land\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\drawable_tienda.png.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\drawable\\tienda.png"
+    },
+    {
+        "merged": "D:\\programas\\petitspotins-copia\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_abono.xml.flat",
+        "source": "D:\\programas\\petitspotins-copia\\app\\src\\main\\res\\layout\\fragment_abono.xml"
     }
 ]

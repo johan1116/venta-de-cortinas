@@ -19,10 +19,22 @@
         android:testOnly="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity
-            android:name="com.unicaldas.petitspotins.VentaActivity"
+            android:name="com.unicaldas.petitspotins.HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.unicaldas.petitspotins.LoginActivity"
             android:exported="false" />
         <activity
             android:name="com.unicaldas.petitspotins.AbonoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.unicaldas.petitspotins.ToDoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.unicaldas.petitspotins.WelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.unicaldas.petitspotins.VentaActivity"
             android:exported="false" />
         <activity
             android:name="com.unicaldas.petitspotins.MainActivity"

@@ -6,64 +6,88 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml
+8-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="31" />
-9-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml
+9-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:5:5-31:19
+11-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:5:5-43:19
 12        android:allowBackup="true"
-12-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:6:9-35
+12-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.7.0] C:\Users\Queso\.gradle\caches\transforms-3\6006d603408a8c1ed0edf3e550c48eb5\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:7:9-43
+15-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:8:9-41
+16-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:9:9-54
+17-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:10:9-35
+18-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-20-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:11:9-65
+20-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:11:9-65
 21        <activity
-21-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:12:9-14:40
-22            android:name="com.unicaldas.petitspotins.VentaActivity"
-22-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:13:13-42
+21-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:12:9-14:40
+22            android:name="com.unicaldas.petitspotins.HomeActivity"
+22-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:13:13-41
 23            android:exported="false" />
-23-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:14:13-37
+23-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:14:13-37
 24        <activity
-24-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:15:9-17:40
-25            android:name="com.unicaldas.petitspotins.AbonoActivity"
-25-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:16:13-42
+24-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:15:9-17:40
+25            android:name="com.unicaldas.petitspotins.LoginActivity"
+25-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:16:13-42
 26            android:exported="false" />
-26-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:17:13-37
+26-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:17:13-37
 27        <activity
-27-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:18:9-26:20
-28            android:name="com.unicaldas.petitspotins.MainActivity"
-28-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:19:13-41
-29            android:exported="true" >
-29-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:20:13-36
-30            <intent-filter>
-30-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:21:13-25:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:22:17-69
-31-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:22:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:24:17-77
-33-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:24:27-74
-34            </intent-filter>
-35        </activity>
-36
-37        <meta-data
-37-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:28:9-30:57
-38            android:name="preloaded_fonts"
-38-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:29:13-43
-39            android:resource="@array/preloaded_fonts" />
-39-->C:\Users\Queso\OneDrive\Documentos\venta-de-cortinas\petitspotins\app\src\main\AndroidManifest.xml:30:13-54
-40    </application>
-41
-42</manifest>
+27-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:18:9-20:40
+28            android:name="com.unicaldas.petitspotins.AbonoActivity"
+28-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:19:13-42
+29            android:exported="false" />
+29-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:20:13-37
+30        <activity
+30-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:21:9-23:40
+31            android:name="com.unicaldas.petitspotins.ToDoActivity"
+31-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:22:13-41
+32            android:exported="false" />
+32-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:23:13-37
+33        <activity
+33-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:24:9-26:40
+34            android:name="com.unicaldas.petitspotins.WelcomeActivity"
+34-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:25:13-44
+35            android:exported="false" />
+35-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:26:13-37
+36        <activity
+36-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:27:9-29:40
+37            android:name="com.unicaldas.petitspotins.VentaActivity"
+37-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:28:13-42
+38            android:exported="false" />
+38-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:29:13-37
+39        <activity
+39-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:30:9-38:20
+40            android:name="com.unicaldas.petitspotins.MainActivity"
+40-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:31:13-41
+41            android:exported="true" >
+41-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:32:13-36
+42            <intent-filter>
+42-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:33:13-37:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:34:17-69
+43-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:34:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:36:17-77
+45-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:36:27-74
+46            </intent-filter>
+47        </activity>
+48
+49        <meta-data
+49-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:40:9-42:57
+50            android:name="preloaded_fonts"
+50-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:41:13-43
+51            android:resource="@array/preloaded_fonts" />
+51-->D:\programas\petitspotins-copia\app\src\main\AndroidManifest.xml:42:13-54
+52    </application>
+53
+54</manifest>

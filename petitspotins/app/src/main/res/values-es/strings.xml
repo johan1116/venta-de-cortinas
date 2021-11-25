@@ -38,4 +38,10 @@
     <string name="txt_type_art">Tipos de Artículos</string>
     <string name="txt_anch">Ancho</string>
     <string name="txt_larg">Largo</string>
+    <string name="txt_home">Inicio</string>
+    <string name="txt_gallery">Galeria</string>
+    <string name="txt_car">Venta</string>
+    <string name="txt_list">Lista</string>
+    <string name="txt_pay">Abono</string>
+    <string name="txt_article">Artículo</string>
 </resources>

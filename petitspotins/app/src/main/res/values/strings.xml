@@ -38,4 +38,12 @@
     <string name="txt_type_art">Types of Articles</string>
     <string name="txt_anch">Width</string>
     <string name="txt_larg">Long</string>
+    <string name="txt_home">Home</string>
+    <string name="txt_gallery">Gallery</string>
+    <string name="txt_car">Sale</string>
+    <string name="txt_list">List</string>
+    <string name="txt_pay">Pay</string>
+    <string name="txt_article">Article</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

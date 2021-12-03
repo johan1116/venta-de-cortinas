@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/cafe_claro"
-    tools:context=".AbonoActivity">
+    tools:context=".AbonoFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -40,11 +40,12 @@
         app:cardCornerRadius="60dp"
         app:cardElevation="16dp"
         app:cardPreventCornerOverlap="false">
-        <!--<RelativeLayout
+
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/cortinas"
-            android:alpha=".50">-->
+            android:background="@drawable/sala_4"
+            android:alpha=".50"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -60,7 +61,7 @@
                 android:fontFamily="@font/poppins_bold"
                 android:gravity="center_horizontal|top"
                 android:text="@string/txt_reg_abono"
-                android:textColor="@color/black"
+                android:textColor="#312E2C"
                 android:textSize="50sp" />
 
         </LinearLayout>
@@ -76,7 +77,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="110dp"
                 android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_name_client"
                 android:textColor="@color/black"
@@ -87,8 +88,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="150dp"
-                android:ems="8"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/design_text"
+                android:ems="10"
                 android:fontFamily="@font/poppins_medium"
                 android:textSize="32sp" />
 
@@ -96,7 +98,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="700dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="110dp"
                 android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_cc_client"
                 android:textColor="@color/black"
@@ -107,8 +109,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="700dp"
-                android:layout_marginTop="150dp"
-                android:ems="8"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/design_text"
+                android:ems="9"
                 android:fontFamily="@font/poppins_medium"
                 android:textSize="32sp" />
 
@@ -116,7 +119,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="240dp"
+                android:layout_marginTop="250dp"
                 android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_cod_vent"
                 android:textColor="@color/black"
@@ -127,8 +130,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="300dp"
-                android:ems="6"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/design_text"
+                android:ems="10"
                 android:fontFamily="@font/poppins_medium"
                 android:textSize="32sp" />
 
@@ -136,7 +140,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="390dp"
+                android:layout_marginTop="400dp"
                 android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_fech_vent"
                 android:textColor="@color/black"
@@ -147,8 +151,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="450dp"
-                android:ems="6"
+                android:layout_marginTop="460dp"
+                android:background="@drawable/design_text"
+                android:ems="10"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="datetime"
                 android:textSize="32sp" />
@@ -157,7 +162,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="700dp"
-                android:layout_marginTop="240dp"
+                android:layout_marginTop="250dp"
                 android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_val_abon"
                 android:textColor="@color/black"
@@ -168,18 +173,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="700dp"
-                android:layout_marginTop="300dp"
-                android:ems="6"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/design_text"
+                android:ems="9"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="number"
                 android:textSize="32sp" />
 
+            <!-- <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="800dp"
+                 android:layout_marginTop="450dp"
+                 android:backgroundTint="@color/orange"
+                 android:fontFamily="@font/poppins_medium"
+                 android:text="@string/txt_btnabono"
+                 android:textColor="@color/white"
+                 android:textSize="32sp" />-->
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="800dp"
+                android:layout_marginLeft="700dp"
                 android:layout_marginTop="450dp"
-                android:backgroundTint="@color/orange"
+                android:background="@drawable/design_button"
                 android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_btnabono"
                 android:textColor="@color/white"

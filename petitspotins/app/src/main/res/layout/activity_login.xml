@@ -83,13 +83,13 @@
             android:inputType="textPassword" />
 
         <Button
-
+            android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="320dp"
             android:layout_marginLeft="135dp"
             android:backgroundTint="@color/cafe"
-            android:onClick="onLogin"
+
             android:textColor="@color/white"
             android:text="@string/text_login"
             android:fontFamily="@font/poppins_medium"

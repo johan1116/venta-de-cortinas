@@ -18,10 +18,14 @@ class WelcomeActivity : AppCompatActivity() {
         val card_1 = findViewById<CardView>(R.id.card_pay)
         val card_2 = findViewById<CardView>(R.id.card_sale)
         val card_3 = findViewById<CardView>(R.id.card_home)
+        val card_4 = findViewById<CardView>(R.id.card_article)
+        val card_5 = findViewById<CardView>(R.id.card_list)
 
         card_1.setOnClickListener(clickListener)
         card_2.setOnClickListener(clickListener)
         card_3.setOnClickListener(clickListener)
+        card_4.setOnClickListener(clickListener)
+        card_5.setOnClickListener(clickListener)
 
     }
 
@@ -33,6 +37,8 @@ class WelcomeActivity : AppCompatActivity() {
             R.id.card_pay-> irPago()
             R.id.card_sale-> irVenta()
             R.id.card_home-> irHome()
+            R.id.card_article-> irArticulo()
+            R.id.card_list-> irLista()
 
 
 
@@ -51,6 +57,16 @@ class WelcomeActivity : AppCompatActivity() {
 
     private fun irHome() {
         val intento = Intent(this, HomeActivity::class.java)
+        startActivity(intento)
+    }
+
+    private fun irArticulo() {
+        val intento = Intent(this, ArticuloActivity::class.java)
+        startActivity(intento)
+    }
+
+    private fun irLista() {
+        val intento = Intent(this, RegistroActivity::class.java)
         startActivity(intento)
     }
 

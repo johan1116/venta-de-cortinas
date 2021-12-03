@@ -21,12 +21,14 @@
     <string name="txt_name_client">Nombre del Cliente</string>
     <string name="txt_cc_client">Cédula Cliente</string>
     <string name="txt_cod_vent">Código de Venta</string>
+    <string name="txt_articode">Código del Artículo</string>
     <string name="txt_fech_vent">Fecha de venta</string>
     <string name="txt_val_abon">Valor Abonado</string>
     <string name="txt_btnabono">Cargar</string>
     <string name="txt_or">O</string>
     <string name="txt_reg_abono">Registro de Pago</string>
-    <string name="txt_reg_vent">Registro de Venta</string>
+    <string name="txt_reg_venta">Registro de Venta</string>
+    <string name="txt_reg_arti">Registro de Artículo</string>
     <string name="txt_date_vent">Datos de la Venta</string>
     <string name="txt_cc_ven">Cédula del Vendedor</string>
     <string name="txt_date_cli">Datos del Cliente</string>
@@ -44,4 +46,7 @@
     <string name="txt_list">Lista</string>
     <string name="txt_pay">Abono</string>
     <string name="txt_article">Artículo</string>
+    <string name="txt_type_curtain">Tipo de Cortina</string>
+    <string name="txt_color_curtain">Color de la Cortina</string>
+    <string name="txt_metersquare">Valor por Metro Cuadrado</string>
 </resources>

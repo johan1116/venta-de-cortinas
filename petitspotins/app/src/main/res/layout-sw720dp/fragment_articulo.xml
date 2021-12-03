@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/cafe_claro"
-    tools:context=".AbonoFragment">
+    tools:context=".ArticuloFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/poppins_bold"
             android:gravity="center_horizontal|top"
-            android:text="@string/txt_reg_abono"
+            android:text="@string/txt_reg_arti"
             android:textColor="#312E2C"
             android:textSize="50sp" />
 
@@ -76,7 +76,7 @@
                 android:layout_marginLeft="60dp"
                 android:layout_marginTop="60dp"
                 android:fontFamily="@font/poppins_medium"
-                android:text="@string/txt_name_client"
+                android:text="@string/txt_articode"
                 android:textColor="@color/black"
                 android:textSize="32sp" />
 
@@ -97,7 +97,7 @@
                 android:layout_marginLeft="60dp"
                 android:layout_marginTop="220dp"
                 android:fontFamily="@font/poppins_medium"
-                android:text="@string/txt_cc_client"
+                android:text="@string/txt_type_curtain"
                 android:textColor="@color/black"
                 android:textSize="32sp" />
 
@@ -118,7 +118,7 @@
                 android:layout_marginLeft="60dp"
                 android:layout_marginTop="380dp"
                 android:fontFamily="@font/poppins_medium"
-                android:text="@string/txt_cod_vent"
+                android:text="@string/txt_color_curtain"
                 android:textColor="@color/black"
                 android:textSize="32sp" />
 
@@ -129,7 +129,7 @@
                 android:layout_marginLeft="60dp"
                 android:layout_marginTop="440dp"
                 android:background="@drawable/design_text"
-                android:ems="6"
+                android:ems="12"
                 android:fontFamily="@font/poppins_medium"
                 android:textSize="32sp" />
 
@@ -139,7 +139,7 @@
                 android:layout_marginLeft="60dp"
                 android:layout_marginTop="540dp"
                 android:fontFamily="@font/poppins_medium"
-                android:text="@string/txt_fech_vent"
+                android:text="@string/txt_metersquare"
                 android:textColor="@color/black"
                 android:textSize="32sp" />
 
@@ -150,32 +150,12 @@
                 android:layout_marginLeft="60dp"
                 android:layout_marginTop="600dp"
                 android:background="@drawable/design_text"
-                android:ems="6"
+                android:ems="12"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="datetime"
                 android:textSize="32sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="700dp"
-                android:fontFamily="@font/poppins_medium"
-                android:text="@string/txt_val_abon"
-                android:textColor="@color/black"
-                android:textSize="32sp" />
 
-            <EditText
-                android:id="@+id/edtvalAbono"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="760dp"
-                android:background="@drawable/design_text"
-                android:ems="6"
-                android:fontFamily="@font/poppins_medium"
-                android:inputType="number"
-                android:textSize="32sp" />
 
             <!--           <Button
                            android:layout_width="wrap_content"
@@ -192,7 +172,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="320dp"
-                android:layout_marginTop="870dp"
+                android:layout_marginTop="790dp"
                 android:background="@drawable/design_button"
                 android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_btnabono"

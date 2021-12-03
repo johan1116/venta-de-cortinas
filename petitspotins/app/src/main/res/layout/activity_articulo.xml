@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AbonoActivity">
+    tools:context=".ArticuloActivity">
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
-        android:name="com.unicaldas.petitspotins.AbonoFragment"
+        android:id="@+id/fragmentContainerView4"
+        android:name="com.unicaldas.petitspotins.ArticuloFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

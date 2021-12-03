@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/cafe_claro"
-    tools:context=".AbonoActivity">
+    tools:context=".ArticuloFragment">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/my_toolbar"
@@ -17,7 +17,17 @@
         android:elevation="4dp"
         android:fontFamily="@font/poppins_medium"
         android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:fontFamily="@font/poppins_medium"
+            />
+    </androidx.appcompat.widget.Toolbar>
 
 
 
@@ -30,11 +40,12 @@
         app:cardCornerRadius="60dp"
         app:cardElevation="16dp"
         app:cardPreventCornerOverlap="false">
-        <!--<RelativeLayout
+
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:background="@drawable/cortinas"
-            android:alpha=".50">-->
+            android:background="@drawable/sala_4"
+            android:alpha=".50"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -49,8 +60,8 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppins_bold"
                 android:gravity="center_horizontal|top"
-                android:text="@string/txt_reg_abono"
-                android:textColor="@color/black"
+                android:text="@string/txt_reg_arti"
+                android:textColor="#312E2C"
                 android:textSize="50sp" />
 
         </LinearLayout>
@@ -66,19 +77,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="110dp"
                 android:fontFamily="@font/poppins_medium"
-                android:text="@string/txt_name_client"
+                android:text="@string/txt_articode"
                 android:textColor="@color/black"
                 android:textSize="32sp" />
 
             <EditText
-                android:id="@+id/edtCliente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="150dp"
-                android:ems="8"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/design_text"
+                android:ems="10"
                 android:fontFamily="@font/poppins_medium"
                 android:textSize="32sp" />
 
@@ -86,19 +97,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="700dp"
-                android:layout_marginTop="100dp"
+                android:layout_marginTop="110dp"
                 android:fontFamily="@font/poppins_medium"
-                android:text="@string/txt_cc_client"
+                android:text="@string/txt_type_curtain"
                 android:textColor="@color/black"
                 android:textSize="32sp" />
 
             <EditText
-                android:id="@+id/edtCcCliente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="700dp"
-                android:layout_marginTop="150dp"
-                android:ems="8"
+                android:layout_marginTop="160dp"
+                android:background="@drawable/design_text"
+                android:ems="9"
                 android:fontFamily="@font/poppins_medium"
                 android:textSize="32sp" />
 
@@ -106,70 +117,61 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="240dp"
+                android:layout_marginTop="250dp"
                 android:fontFamily="@font/poppins_medium"
-                android:text="@string/txt_cod_vent"
+                android:text="@string/txt_color_curtain"
                 android:textColor="@color/black"
                 android:textSize="32sp" />
 
             <EditText
-                android:id="@+id/edtCodigoVenta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="300dp"
-                android:ems="6"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/design_text"
+                android:ems="10"
                 android:fontFamily="@font/poppins_medium"
                 android:textSize="32sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="390dp"
-                android:fontFamily="@font/poppins_medium"
-                android:text="@string/txt_fech_vent"
-                android:textColor="@color/black"
-                android:textSize="32sp" />
-
-            <EditText
-                android:id="@+id/edtFechVenta"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="60dp"
-                android:layout_marginTop="450dp"
-                android:ems="6"
-                android:fontFamily="@font/poppins_medium"
-                android:inputType="datetime"
-                android:textSize="32sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="700dp"
-                android:layout_marginTop="240dp"
+                android:layout_marginTop="250dp"
                 android:fontFamily="@font/poppins_medium"
-                android:text="@string/txt_val_abon"
+                android:text="@string/txt_metersquare"
                 android:textColor="@color/black"
                 android:textSize="32sp" />
 
             <EditText
-                android:id="@+id/edtvalAbono"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="700dp"
-                android:layout_marginTop="300dp"
-                android:ems="6"
+                android:layout_marginTop="310dp"
+                android:background="@drawable/design_text"
+                android:ems="9"
                 android:fontFamily="@font/poppins_medium"
                 android:inputType="number"
                 android:textSize="32sp" />
 
+            <!-- <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginLeft="800dp"
+                 android:layout_marginTop="450dp"
+                 android:backgroundTint="@color/orange"
+                 android:fontFamily="@font/poppins_medium"
+                 android:text="@string/txt_btnabono"
+                 android:textColor="@color/white"
+                 android:textSize="32sp" />-->
+
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="800dp"
+                android:layout_marginLeft="600dp"
                 android:layout_marginTop="450dp"
-                android:backgroundTint="@color/orange"
+                android:background="@drawable/design_button"
                 android:fontFamily="@font/poppins_medium"
                 android:text="@string/txt_btnabono"
                 android:textColor="@color/white"

@@ -6,6 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.room.Room
+import com.unicaldas.room_database.ToDoDatabase
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -36,6 +40,7 @@ class DetailFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val fragmento: View = inflater.inflate(R.layout.fragment_detail, container, false)
+        /*
         var codiven = requireArguments().getString("codigoVenta")
         var codivende = requireArguments().getString("codigoVendedor")
         var fechaven = requireArguments().getString("fechaVenta")
@@ -77,8 +82,65 @@ class DetailFragment : Fragment() {
         textViewAbono.text = abonocor
         textViewSaldoPen.text = saldopendi
         textViewSaldoTotal.text = saldotot
+        */
 
         return fragmento
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        var areacor = requireArguments().getString("areaCortina")
+        var cuotacor = requireArguments().getString("cuotaCortina")
+        var abonocor = requireArguments().getString("abonoCortina")
+        var saldopendi = requireArguments().getString("saldoPendiente")
+        var saldotot = requireArguments().getString("saldoTotal")
+
+        val textViewCodVen: TextView = view.findViewById(R.id.textViewCodVen)
+        val textViewCodVende: TextView = view.findViewById(R.id.textViewCodVende)
+        val textViewFechVen: TextView = view.findViewById(R.id.textViewFechVen)
+        val textViewNameClient:TextView =view.findViewById(R.id.textViewNameClient)
+        val textViewFechClient: TextView = view.findViewById(R.id.textViewFechClient)
+        val textViewTipoCor: TextView = view.findViewById(R.id.textViewTipoCor)
+        val textwViewLargo: TextView = view.findViewById(R.id.textwViewLargo)
+        val textViewAncho:TextView = view.findViewById(R.id.textViewAncho)
+        val textViewArea: TextView = view.findViewById(R.id.textViewArea)
+        val textViewCuotas: TextView = view.findViewById(R.id.textViewCuotas)
+        val textViewAbono: TextView = view.findViewById(R.id.textViewAbono)
+        val textViewSaldoPen:TextView = view.findViewById(R.id.textViewSaldoPen)
+        val textViewSaldoTotal: TextView = view.findViewById(R.id.textViewSaldoTotal)
+
+        var id = requireArguments().getInt("id")
+
+        val room: ToDoDatabase = Room.databaseBuilder(context?.applicationContext!!,
+            ToDoDatabase::class.java,"ToDoDatabase").build()
+
+        var todoDao = room.todoDao()
+
+        runBlocking {
+            launch {
+
+                var result = todoDao.findById(id)
+
+                textViewCodVen.text = result.codigo_venta
+                textViewCodVende.text = result.cc_vendedor
+                textViewFechVen.text = result.fecha_venta
+                textViewNameClient.text = result.nombre_cliente
+                textViewFechClient.text = result.cc_cliente
+                textViewTipoCor.text = result.tipo_articulo
+                textwViewLargo.text = result.largo.toString()
+                textViewAncho.text = result.ancho.toString()
+                textViewArea.text = areacor
+                textViewCuotas.text = cuotacor
+                textViewAbono.text = abonocor
+                textViewSaldoPen.text = saldopendi
+                textViewSaldoTotal.text = saldotot
+
+            }
+        }
+
+
+
     }
 
     companion object {

@@ -7,6 +7,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import androidx.room.*
+import com.unicaldas.room_database.ToDoDatabase
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -44,7 +48,74 @@ class ToDoFragment : Fragment() {
         val recyclerTodoList: RecyclerView = view.findViewById(R.id.recyclerTodoList)
 
         var datos: ArrayList<Task> = ArrayList()
-        datos.add(Task("10001", "B0009", "10/11/2021","Johan Zuluaga","16/11/2003","black"
+        val room: ToDoDatabase = Room.databaseBuilder(context?.applicationContext!!,
+            ToDoDatabase::class.java,"ToDoDatabase").build()
+
+        var todoDao = room.todoDao()
+        runBlocking {
+            launch {
+                var result = todoDao.getAllTasks()
+                for(todo in result){
+
+                    //se calcula el area
+
+                    val largo = todo.largo
+                    val ancho = todo.ancho
+                    val area = largo * ancho
+
+                    //se valida mediante el if el tipo de cortina para poder definir su precio y las cuotas
+
+                    if (todo.tipo_articulo == "blackOut"){
+
+                        val valor_black = 60000
+                        val saldo_tot= valor_black * area
+                        val valor_cuota = (valor_black * area ) * (0.2)
+                        val cuot = saldo_tot / valor_cuota
+
+                        datos.add(Task(todo.id,todo.codigo_venta,todo.cc_vendedor,todo.fecha_venta,todo.nombre_cliente,
+                            todo.cc_cliente,todo.tipo_articulo,todo.largo.toString(),todo.ancho.toString(),
+                            ""+area+" m^2",""+cuot,"0",""+saldo_tot,""+saldo_tot))
+
+                    }else if(todo.tipo_articulo == "Panel Japones"){
+
+                        val valor_japones = 30000
+                        val saldo_tot= valor_japones * area
+                        val valor_cuota = (valor_japones * area ) * (0.2)
+                        val cuot = saldo_tot / valor_cuota
+
+                        datos.add(Task(todo.id,todo.codigo_venta,todo.cc_vendedor,todo.fecha_venta,todo.nombre_cliente,
+                            todo.cc_cliente,todo.tipo_articulo,todo.largo.toString(),todo.ancho.toString(),
+                            ""+area+" m^2",""+cuot,"0",""+saldo_tot,""+saldo_tot))
+
+
+                    }else if(todo.tipo_articulo == "Sheer Elegance"){
+
+                        val valor_Elegance = 70000
+                        val saldo_tot= valor_Elegance * area
+                        val valor_cuota = (valor_Elegance * area ) * (0.2)
+                        val cuot = saldo_tot / valor_cuota
+
+                        datos.add(Task(todo.id,todo.codigo_venta,todo.cc_vendedor,todo.fecha_venta,todo.nombre_cliente,
+                            todo.cc_cliente,todo.tipo_articulo,todo.largo.toString(),todo.ancho.toString(),
+                            ""+area+" m^2",""+cuot,"0",""+saldo_tot,""+saldo_tot))
+
+
+                    }else{
+
+                        datos.add(Task(todo.id,todo.codigo_venta,todo.cc_vendedor,todo.fecha_venta,todo.nombre_cliente,
+                            todo.cc_cliente,todo.tipo_articulo,todo.largo.toString(),todo.ancho.toString(),
+                            ""+area+" m^2","0","0","0","0"))
+
+
+                    }
+
+
+
+                }
+            }
+        }
+
+        /*datos.add(Task("10001", "B0009", "10/11/2021","Johan Zuluaga","16/11/2003","black"
             ,"6","4","24","null","null","null","null"))
 
         datos.add(Task("10002", "B00010", "12/11/2021","Angelo Lopez","2000","blue"
@@ -60,11 +131,19 @@ class ToDoFragment : Fragment() {
             ,"7","3","21","null","null","null","null"))
 
         datos.add(Task("10006", "B00014", "2/12/2021","Juana","2000","Yellow"
-            ,"7","3","21","null","null","null","null"))
+            ,"7","3","21","null","null","null","null"))*/
 
         var taskAdapter = TaskAdapter(datos){
             val datos = Bundle()
-            datos.putString("codigoVenta", it.codven)
+            datos.putInt("id",it.id)
+
+            datos.putString("areaCortina", it.area)
+            datos.putString("cuotaCortina", it.cuota)
+            datos.putString("abonoCortina", it.abono)
+            datos.putString("saldoPendiente",it.saldopen)
+            datos.putString("saldoTotal", it.saldototal)
+
+            /*datos.putString("codigoVenta", it.codven)
             datos.putString("codigoVendedor", it.codvende)
             datos.putString("fechaVenta", it.fechven)
             datos.putString("nombreCliente",it.nameclient)
@@ -76,7 +155,7 @@ class ToDoFragment : Fragment() {
             datos.putString("cuotaCortina", it.cuota)
             datos.putString("abonoCortina", it.abono)
             datos.putString("saldoPendiente",it.saldopen)
-            datos.putString("saldoTotal", it.saldototal)
+            datos.putString("saldoTotal", it.saldototal)*/
 
 
 

@@ -106,7 +106,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtCodiVen"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -129,7 +129,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtFechVen"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="205dp"
@@ -138,7 +138,7 @@
                         android:background="@drawable/design_text"
                         android:ems="27"
                         android:fontFamily="@font/poppins_medium"
-                        android:inputType="number"
+                        android:inputType="text"
                         android:textSize="9sp" />
 
                     <TextView
@@ -152,7 +152,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtCcVen"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -161,7 +161,7 @@
                         android:background="@drawable/design_text"
                         android:ems="27"
                         android:fontFamily="@font/poppins_medium"
-                        android:inputType="text"
+                        android:inputType="number"
                         android:textColor="@color/black"
                         android:textSize="9sp" />
 
@@ -187,7 +187,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtNameClient"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -211,7 +211,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtCcClient"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -233,7 +233,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtDireccion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="205dp"
@@ -242,7 +242,7 @@
                         android:background="@drawable/design_text"
                         android:ems="27"
                         android:fontFamily="@font/poppins_medium"
-                        android:inputType="number"
+                        android:inputType="text"
                         android:textSize="9sp" />
 
                     <TextView
@@ -257,7 +257,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtLatitud"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -280,7 +280,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtLongitud"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="205dp"
@@ -316,7 +316,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtTipoArt"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -325,7 +325,7 @@
                         android:background="@drawable/design_text"
                         android:ems="27"
                         android:fontFamily="@font/poppins_medium"
-                        android:inputType="number"
+                        android:inputType="text"
                         android:textSize="9sp" />
 
                     <TextView
@@ -340,7 +340,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtAncho"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="30dp"
@@ -364,7 +364,7 @@
                         android:textSize="15sp" />
 
                     <EditText
-
+                        android:id="@+id/edtLargo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="205dp"
@@ -377,6 +377,7 @@
                         android:textSize="9sp" />
 
                     <Button
+                        android:id="@+id/btnVenta"
                         android:layout_width="wrap_content"
                         android:layout_height="36dp"
                         android:layout_marginLeft="150dp"

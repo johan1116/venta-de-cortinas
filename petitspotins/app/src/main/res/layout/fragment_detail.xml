@@ -93,7 +93,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="140dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Código del Vendedor:"
+                android:text="Cédula del Vendedor:"
                 android:textColor="@color/black"
                 android:textSize="12sp" />
 
@@ -136,7 +136,7 @@
                     android:id="@+id/textViewNameClient"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="35dp"
+                    android:layout_marginStart="20dp"
                     android:layout_marginTop="30dp"
                     android:fontFamily="@font/poppins_bold"
                     android:text="xxxxxxxxx"
@@ -149,10 +149,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="250dp"
+                android:layout_marginStart="200dp"
                 android:layout_marginTop="240dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="Fecha:"
+                android:text="Cédula del Cliente"
                 android:textColor="@color/black"
                 android:textSize="12sp" />
 
@@ -160,7 +160,7 @@
                 android:id="@+id/textViewFechClient"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="250dp"
+                android:layout_marginStart="230dp"
                 android:layout_marginTop="260dp"
                 android:fontFamily="@font/poppins_bold"
                 android:text="xxxxxxxxx"

@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import androidx.room.*
+import com.google.firebase.firestore.FirebaseFirestore
 import com.unicaldas.room_database.ToDoDatabase
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
@@ -48,6 +49,49 @@ class ToDoFragment : Fragment() {
         val recyclerTodoList: RecyclerView = view.findViewById(R.id.recyclerTodoList)
 
         var datos: ArrayList<Task> = ArrayList()
+
+        // datos firebase
+
+        /*val dbFirebase = FirebaseFirestore.getInstance()
+        dbFirebase.collection("Venta").get().addOnSuccessListener {
+
+            for(todo in it){
+                var id = todo.id
+
+                datos.add(Task(id.toInt(),todo.get("codigo_venta") as String,todo.get("cc_vendedor") as String,todo.get("fecha_venta") as String,
+                    todo.get("nombre_cliente") as String,todo.get("cc_cliente") as String,todo.get("tipo_articulo") as String,
+                    todo.get("largo") as String,todo.get("ancho") as String,"0","0","0","0","0"))
+            }
+
+            var taskAdapter = TaskAdapter(datos){
+                val datos = Bundle()
+                datos.putInt("id",it.id)
+
+                datos.putString("areaCortina", it.area)
+                datos.putString("cuotaCortina", it.cuota)
+                datos.putString("abonoCortina", it.abono)
+                datos.putString("saldoPendiente",it.saldopen)
+                datos.putString("saldoTotal", it.saldototal)
+
+                activity?.supportFragmentManager?.beginTransaction()
+                    ?.replace(R.id.fragmentContainerView5, DetailFragment::class.java, datos, "detail")
+                    ?.addToBackStack("")
+                    ?.commit()
+
+
+            }
+
+            recyclerTodoList.setHasFixedSize(true)
+            recyclerTodoList.adapter = taskAdapter
+
+
+
+
+        }*/
+
+
+       // datos por room
+
         val room: ToDoDatabase = Room.databaseBuilder(context?.applicationContext!!,
             ToDoDatabase::class.java,"ToDoDatabase").build()
 
@@ -115,6 +159,8 @@ class ToDoFragment : Fragment() {
             }
         }
 
+        // datos seteados
+
         /*datos.add(Task("10001", "B0009", "10/11/2021","Johan Zuluaga","16/11/2003","black"
             ,"6","4","24","null","null","null","null"))
 
@@ -133,7 +179,9 @@ class ToDoFragment : Fragment() {
         datos.add(Task("10006", "B00014", "2/12/2021","Juana","2000","Yellow"
             ,"7","3","21","null","null","null","null"))*/
 
-        var taskAdapter = TaskAdapter(datos){
+        // adaptador de room
+
+       var taskAdapter = TaskAdapter(datos){
             val datos = Bundle()
             datos.putInt("id",it.id)
 
@@ -168,8 +216,6 @@ class ToDoFragment : Fragment() {
         }
         recyclerTodoList.setHasFixedSize(true)
         recyclerTodoList.adapter = taskAdapter
-
-
 
 
 

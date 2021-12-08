@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.room.*
+import com.google.firebase.firestore.FirebaseFirestore
 import com.unicaldas.room_database.*
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
@@ -71,9 +72,31 @@ class VentaFragment : Fragment() {
                             edtCcClient.text.toString(),edtDireccion.text.toString(),edtLatitud.text.toString().toFloat(),edtLongitud.text.toString().toFloat(),
                             edtTipoArt.text.toString(),edtAncho.text.toString().toFloat(),edtLargo.text.toString().toFloat())
 
+            val dbFirebase = FirebaseFirestore.getInstance()
+
             runBlocking {
                 launch {
                     var result = todoDao.insertTask(task)
+                    if(result != -1L){
+                        dbFirebase.collection("Venta")
+                            .document(result.toString())
+                            .set(
+                                hashMapOf(
+                                    "codigo_venta" to edtCodiVen.text.toString(),
+                                    "fecha_venta" to edtFechVen.text.toString(),
+                                    "cc_vendedor" to edtCcVen.text.toString(),
+                                    "nombre_cliente" to edtNameClient.text.toString(),
+                                    "cc_cliente" to edtCcClient.text.toString(),
+                                    "direccion" to edtDireccion.text.toString(),
+                                    "latitud" to edtLatitud.text.toString().toFloat(),
+                                    "longitud" to edtLongitud.text.toString().toFloat(),
+                                    "tipo_articulo" to edtTipoArt.text.toString(),
+                                    "ancho" to edtAncho.text.toString().toFloat(),
+                                    "largo" to edtLargo.text.toString().toFloat()
+                                )
+                            )
+
+                    }
                     Toast.makeText(context?.applicationContext!!,""+result,Toast.LENGTH_LONG).show()
                 }
             }

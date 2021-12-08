@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity
+            android:name=".GalleryActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegistroActivity"
             android:exported="false" />
         <activity
@@ -19,9 +22,6 @@
             android:name=".VentaActivity"
             android:exported="false" />
         <activity
-            android:name=".VentaActicity"
-            android:exported="false" />
-        <activity
             android:name=".AbonoActivity"
             android:exported="false" />
         <activity
@@ -29,9 +29,6 @@
             android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ToDoActivity"
             android:exported="false" />
         <activity
             android:name=".WelcomeActivity"

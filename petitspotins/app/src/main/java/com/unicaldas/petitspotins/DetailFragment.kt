@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.room.Room
+import com.google.firebase.firestore.FirebaseFirestore
 import com.unicaldas.room_database.ToDoDatabase
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.runBlocking
@@ -138,6 +139,29 @@ class DetailFragment : Fragment() {
 
             }
         }
+
+        // datos de firebase
+
+        /*val dbFirebase = FirebaseFirestore.getInstance()
+        dbFirebase.collection("Venta")
+            .document(id)
+            .get().addOnSuccessListener {
+
+                textViewCodVen.text = it.get("codigo_venta") as String
+                textViewCodVende.text = it.get("cc_vendedor") as String
+                textViewFechVen.text = it.get("fecha_venta") as String
+                textViewNameClient.text = it.get("nombre_cliente") as String
+                textViewFechClient.text = it.get("cc_cliente") as String
+                textViewTipoCor.text = it.get("tipo_articulo") as String
+                textwViewLargo.text = it.get("largo") as String
+                textViewAncho.text = it.get("ancho") as String
+                textViewArea.text = areacor
+                textViewCuotas.text = cuotacor
+                textViewAbono.text = abonocor
+                textViewSaldoPen.text = saldopendi
+                textViewSaldoTotal.text = saldotot
+
+            }*/
 
 
 

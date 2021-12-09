@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import androidx.recyclerview.widget.RecyclerView
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -41,22 +42,37 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         val fragmento: View = inflater.inflate(R.layout.fragment_home, container, false)
 
-        /*val volver: TextView = fragmento.findViewById(R.id.textView_welc)
-
-        volver.setOnClickListener {
-
-            val intento = Intent(this, WelcomeActivity::class.java)
-            startActivity(intento)
-
-        }*/
 
 
         return fragmento
     }
 
-    /*private fun Intent(fragment: HomeFragment, java: Class<WelcomeActivity>): Intent? {
-        TODO("Not yet implemented")
-    }*/
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        val card_espacio1: CardView = view.findViewById(R.id.card_espacio1)
+
+        card_espacio1.setOnClickListener(clickListener)
+
+    }
+
+    val clickListener = View.OnClickListener {view ->
+
+        when (view.getId()) {
+            R.id.card_espacio1-> irinfo()
+
+
+        }
+    }
+
+    private fun irinfo() {
+
+        val intent = Intent(activity, InfoActivity::class.java)
+        requireActivity().startActivity(intent)
+
+    }
+
+
 
 
     companion object {

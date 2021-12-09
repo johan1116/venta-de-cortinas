@@ -32,6 +32,7 @@
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_articulo.xml" value="0.25" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_gallery.xml" value="0.25" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_info.xml" value="0.25" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/activity_registro.xml" value="0.25" />
@@ -40,11 +41,13 @@
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_abono.xml" value="0.25" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_articulo.xml" value="0.25" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_blank.xml" value="0.25" />
-        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_detail.xml" value="0.4" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_detail.xml" value="0.264" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_home.xml" value="0.25" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_to_do.xml" value="0.2359375" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/fragment_venta.xml" value="0.2359375" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/nav_header.xml" value="0.25" />
         <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/layout/task_list_items.xml" value="0.25" />
+        <entry key="..\:/Trabajos/venta-de-cortinas/petitspotins/app/src/main/res/menu/nav_menu.xml" value="0.25" />
         <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/activity_abono.xml" value="0.2984375" />
         <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/activity_main.xml" value="0.29375" />
         <entry key="..\:/Users/Queso/OneDrive/Documentos/venta-de-cortinas/petitspotins/app/src/main/res/layout-land/activity_venta.xml" value="0.2" />

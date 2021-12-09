@@ -47,7 +47,7 @@
             android:rowCount="4">
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card_add"
+                android:id="@+id/card_espacio1"
                 android:layout_width="80dp"
                 android:layout_height="200dp"
                 android:layout_row="0"
@@ -62,7 +62,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/cortina_3"
+                    android:background="@drawable/espacio1"
                     />
 
 
@@ -84,7 +84,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/cortina_3"
+                    android:background="@drawable/enrollable"
                     />
 
 
@@ -105,7 +105,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/cortina_3"
+                    android:background="@drawable/elegance"
                     />
 
 
@@ -126,7 +126,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/cortina_3"
+                    android:background="@drawable/elegance2"
                     />
 
 
@@ -147,7 +147,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/cortina_3"
+                    android:background="@drawable/dia"
                     />
 
 
@@ -169,7 +169,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/cortina_3"
+                    android:background="@drawable/dia1"
                     />
 
 
@@ -190,7 +190,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/cortina_3"
+                    android:background="@drawable/sala_4"
                     />
 
 
@@ -212,7 +212,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/cortina_3"
+                    android:background="@drawable/paneljapones3"
                     />
 
 

@@ -28,5 +28,19 @@
         android:textColor="@color/black"
         android:textSize="36sp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/poppins_medium"
+        android:shadowColor="#99000000"
+        android:shadowDx="0"
+        android:shadowDy="10"
+        android:shadowRadius="4"
+        android:text="Todo en cortinas, persinas y blackouts"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
 
 </RelativeLayout>
